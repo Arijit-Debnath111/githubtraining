@@ -1,0 +1,4 @@
+This is about cinema ticket information
+Current cinemas
+Age limit
+No of tickets available
