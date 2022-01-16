@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[ ]:
+
+
 films={
     "Finding Dory":[3,5],
     "Bourne":[18,5],
@@ -13,12 +19,18 @@ while True:
         if age>=films[choice][0]:
             #check enough seats
             if films[choice][1]>0:
-             print("Enjoy the film!")
-            films[choice][1]=films[choice][1]-1
+                print("Enjoy the film!")
+                films[choice][1]=films[choice][1]-1
+            else:
+                print("Sorry,We are sold out!")
         else:
-            print("Sorry,We are sold out!")
-            
-     else:
-         print("You are too young to see that film!")
+            print("You are too young to see that film!")
     else:
         print("We don't have that film..")
+
+
+# In[ ]:
+
+
+
+
